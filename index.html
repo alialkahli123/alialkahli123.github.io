@@ -1,1 +1,93 @@
-Hello World
+
+
+<DOCTYPE! html>
+<html>
+    <head>
+
+
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width-device-width, intial-scale = 1.0">
+            <title>Ali Alkahli Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="icon" href= "infinity.png">
+    </head>
+<body>
+    <header>
+      <div class="logo">
+      <a href="index.html" title="Freepik" target = "_blank"> <img src= "infinity.png" alt ="" class ="logo__img"> </a> <!-- made by https://www.freepik.com from  https://www.flaticon.com </a></div>-->
+      </div>
+      <button class ="nav-toggle" aria-label="toggle navigaton">
+          <span class = "hamburger"></span>
+        </button>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="#footer__footer" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">Blog</a></li>
+
+          </ul>
+        </nav>
+      </header>
+      <!-- Introduction -->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+          Hi, I am <strong>Ali Alkahli</strong>
+        </h1>
+        <!-- subtitle intro <p class="section__subtitle section__subtitle--intro">Student</p> -->
+        <img src="me.jpeg" alt="" class="intro__img">
+      </section>
+
+
+      <!-- Projects -->
+      <section class="projects" id="project">
+        <h2 class="section__title--project">Projects</h2>
+        <div class="projects">
+
+           <!-- Portfolio item 1 -->
+           <div class="project__item__div">
+               <!-- <a href="#" class="project__item"> </a> -->
+               <img src="catsimage.png" alt="" class="project__img">
+        
+                <p class="project__p"> This was an class project for CS61A at the University of California, Berkeley. In this project, I wrote a program that measures typing speed. I also implement features like autocorrect, which is a feature that attempts to correct the spelling of a word after a user types it. In the image to the left you can see the attempts of autocorrect where green means it sucessfully autocorrected the misspelled word. </p>
+           </div>
+           <div class = "project__item__div"> <!-- <a href="#" class="project__item"> </a> -->
+               <img src="schemeproject.png" alt="" class="project__img">
+        
+                <p class = "project__p"> This was also another class project for CS61A at the University of California, Berkeley. In this project, I developed an interpreter for a subset of the Scheme language. This project allowed me to think about issues that arise in the design of a programming language; many quirks of languages are byproducts of implementation decisions in interpreters and compilers (CS61A, Fall 2021). </p> </div>
+
+        </div>
+      </section>
+
+      <!-- IDEA: Footer -->
+
+      <footer id= "footer__footer">
+      <a href="#" class="footer__link"></a>
+      <div class = "div__footer">
+          <a href="https://www.linkedin.com/in/ali-alkahli-12bb63195/" class="a__footer" target= "_blank">
+              <img src= "linkedin.png" alt="LinkedIn" class= "footer__img"></a>
+
+          <a href="https://github.com/alialkahli123" class = "a__footer"target= "_blank">
+              <img src= "github64px.png" alt="GitHub" class= "footer__img">
+          </a>
+
+          <a href= "#" class = "a__footer">
+            <img src= "infinity.png" alt = "Infinity Blog" class = "footer__img">
+          </a>
+        
+      </div>
+      <!--
+      <ul class="social-list">
+        <li class="social-list__item"><a href="https://www.linkedin.com/in/ali-alkahli-12bb63195/" target="_blank">LinkedIn</a></li>
+        <li class="social-list__item"><a href="https://github.com/alialkahli123" target="_blank">GitHub</a></li>
+        <li class="social-list__item"><a href="index.html" target="_blank">Blog</a></li> </ul>-->
+
+
+      
+    </footer>
+    <script src="index.js"> </script>
+
+</body>
+</html>
