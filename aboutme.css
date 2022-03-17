@@ -45,8 +45,13 @@ body {
   line-height: 1.6;
 }
 
-section{
+.section{
   padding: 5em 2em;
+  text-align: center;
+}
+.mission {
+  padding: 2em 2em 0em 2em; /*top right bottom left*/
+  text-align: center;
 }
 
 img{
